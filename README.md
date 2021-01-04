@@ -29,4 +29,5 @@ Program doesn’t fix the actual faults, that would have to done manually. Also 
 ## What next?
 
 Next step of the program could be affecting designing of the buildings from the learned data of existing buildings. Program could analyze existing buildings and determine what works and what doesn’t and give directions to the building designers.
+Beyond that it's possible and there are already even some simple AI programs that affect the building controls directly for example by changing the heating water temperature in the buildings heating system based on learned patterns how indoor temperature fluctuates.  
 
