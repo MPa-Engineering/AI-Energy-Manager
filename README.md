@@ -19,6 +19,7 @@ Program would be used by building owners and building maintenance to detect abno
 
 ## Data sources and AI methods
 Unfortunately, there is no universal open data available for energy consumption for buildings. In the future there might be an open data source with data from public building owners like municipalities. For the time being all the building owners would have to use their own energy consumption data. For larger municipalities that is hundreds even thousands of building and that might be enough for reliable model. Also energy companies have large pools of data but the accessibility is a big question mark. Usually the main energy meters of buildings are used for basis of billing and the data should be reliable. Other needed data are weather data from national weather forecasting service and the building data. Building data can be little inaccurate sometimes so that should be quality tested.\
+\
 I would use linear regression where variables are things like outside temperature (hourly data), wind speed (hourly data) and solar radiation (hourly data) from the weather dataset. Other needed variables are building size (area or volume which is more readily available), indoor temperature (usually not that easily available and might need extra sensors. Some buildings have building management systems that can be accessed), year of construction and number of users. Predicted values would be heating and electric energy usage. Program would compare the predicted value to the actual value and inform any variations. Program also compares the different buildings coefficient values to each other and estimates buildings that have abnormal values. If the program could access the building management system even more variables could be used.
 
 
@@ -28,6 +29,7 @@ Program doesn’t fix the actual faults, that would have to done manually. Also 
 
 ## What next?
 
-Next step of the program could be affecting designing of the buildings from the learned data of existing buildings. Program could analyze existing buildings and determine what works and what doesn’t and give directions to the building designers.
+Next step of the program could be affecting designing of the buildings from the learned data of existing buildings. Program could analyze existing buildings and determine what works and what doesn’t and give directions to the building designers.\
+\
 Beyond that it's possible and there are already even some simple AI programs that affect the building controls directly for example by changing the heating water temperature in the buildings heating system based on learned patterns how indoor temperature fluctuates.  
 
