@@ -4,7 +4,7 @@ Final project for the Building AI course
 
 ## Summary
 
-AI program which monitors buildings energy performance, compares buildings to each other and detect faults in them. AI program also gives successions what could be the problem in the building.
+AI program that monitors buildings energy performance, compares buildings to each other and detect faults in them. AI program also gives successions what could be the problem in the building.
 
 
 ## Background
